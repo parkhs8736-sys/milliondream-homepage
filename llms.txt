@@ -1,0 +1,32 @@
+# 밀리언드림
+
+> 밀리언드림은 구축아파트 단타매매로 현금흐름을 만들어가는 과정과 현장에서 배운 기준을 나누는 브랜드입니다. 강사 밀쌤은 매입, 수리, 매도 과정을 수강생과 함께 살펴봅니다. 투자 결과를 보장하지 않습니다.
+
+공식 사이트: https://parkhs8736-sys.github.io/milliondream-homepage/
+언어: 한국어
+
+## 주요 페이지
+
+- [홈](https://parkhs8736-sys.github.io/milliondream-homepage/): 브랜드 소개와 최신 이야기.
+- [밀쌤 소개](https://parkhs8736-sys.github.io/milliondream-homepage/about.html): 사업을 시작한 계기, 현장 경험, 수강생과 함께하는 방식.
+- [이야기](https://parkhs8736-sys.github.io/milliondream-homepage/story/): 급매 비교, 수리비 판단, 첫 매수 전 점검 등 현장 기록.
+- [연락하기](https://parkhs8736-sys.github.io/milliondream-homepage/contact.html): 카카오톡 채널과 이메일 문의, 공식 채널 안내.
+
+## 이야기 글
+
+- [같은 단지에서 가장 비싸게 팔린 집, 비교해도 될까요?](https://parkhs8736-sys.github.io/milliondream-homepage/story/post.html?id=reading-sale-prices): 실거래가와 호가를 구분하고 거래 사례를 비교합니다.
+- [현장 보고를 받고, 자재를 정하고, 급매 한 건을 살핀 날](https://parkhs8736-sys.github.io/milliondream-homepage/story/post.html?id=field-day-notes): 매입 검토와 수리 현장 결정이 함께 진행되는 하루를 기록합니다.
+- [첫 매수 전, 내 돈이 얼마나 오래 묶여도 될까요?](https://parkhs8736-sys.github.io/milliondream-homepage/story/post.html?id=before-my-first-offer): 수리비, 생활비, 보유 비용을 자기 조건에 맞게 점검합니다.
+- [수리비를 정할 때, 먼저 주변 매물을 봅니다](https://parkhs8736-sys.github.io/milliondream-homepage/story/post.html?id=repair-budget-by-comparison-20261117): 경쟁 매물과 목표 순수익·수익률을 함께 고려합니다. 글 끝에 관련 FAQ가 있습니다.
+
+## 자료
+
+- [게시글 데이터](https://parkhs8736-sys.github.io/milliondream-homepage/story/posts.json): 이야기 글의 제목, 요약, 본문과 출처가 담긴 JSON 파일.
+- [사이트맵](https://parkhs8736-sys.github.io/milliondream-homepage/sitemap.xml): 공개 페이지 목록. 작성자용 관리 페이지는 제외합니다.
+
+## 공식 외부 채널
+
+- [네이버 블로그](https://blog.naver.com/woril)
+- [네이버 카페](https://cafe.naver.com/1milliondream)
+- [Threads](https://www.threads.com/@milliondream_kr)
+- [카카오톡 채널](https://pf.kakao.com/_hgxfrX)

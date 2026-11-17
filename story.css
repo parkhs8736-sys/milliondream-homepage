@@ -7,10 +7,28 @@
 .story-list-hero>p:not(.eyebrow){font-size:14px;line-height:1.9;color:var(--muted);margin:0}
 .story-admin-link{display:inline-flex;gap:5px;margin-top:19px;padding-bottom:2px;border-bottom:1px solid var(--line);font-size:11px;color:var(--muted)}
 .story-admin-link:hover,.story-back:hover{color:var(--rust-dark);border-color:var(--rust)}
-.story-list{list-style:none;padding:0 0 90px;margin:0}
-.story-list .card{border-bottom:1px solid var(--line)}
-.story-list .card a{display:block;padding:29px 8px;text-decoration:none;color:inherit;border-radius:3px;transition:background .2s,transform .2s}
-.story-list .card a:hover{background:var(--cream);transform:translateX(3px)}
+.story-list {
+  display: grid;
+  gap: 16px;
+  list-style: none;
+  padding: 24px 0 90px;
+  margin: 0;
+}
+.story-list .card {
+  background: var(--paper);
+  border: 1px solid #eee8dd;
+  transition: border-color .2s, transform .2s;
+}
+.story-list .card:hover {
+  border-color: #d2bba8;
+  transform: translateY(-4px);
+}
+.story-list .card a {
+  display: block;
+  padding: 24px 22px;
+  text-decoration: none;
+  color: inherit;
+}
 .story-list .card time,.post-head time{font-size:11px;color:var(--rust);letter-spacing:.04em}
 .story-list .card h2{font-family:var(--serif);font-size:19px;line-height:1.6;letter-spacing:-.035em;margin:8px 0}
 .story-list .card a:hover h2{color:var(--rust-dark)}
@@ -53,4 +71,4 @@
 .story-post-main .notfound h1{font-family:var(--serif);font-size:22px;margin-bottom:10px}
 .story-post-main .notfound p{font-size:13px;color:var(--muted);margin-bottom:20px}
 .story-post-main .notfound a{color:var(--rust-dark);font-size:13px;border-bottom:1px solid currentColor;padding-bottom:2px}
-@media(max-width:680px){.story-wrap{width:min(100% - 40px,680px)}.story-list-hero{padding:55px 0 30px}.story-list-hero h1{font-size:35px}.story-list .card a{padding:24px 4px}.story-list .card h2{font-size:17px}.story-list .card .summary{font-size:12px}.story-post-wrap{padding-bottom:65px}.story-top{padding-top:22px}.story-post-main article{padding-top:34px}.story-post-main .body{font-size:14px;line-height:1.95}.story-post-main .body h2,.story-post-main .faq h2{font-size:18px}.story-post-main nav.pn{grid-template-columns:1fr}.story-post-main nav.pn .next{text-align:left}}
+@media(max-width:680px){.story-wrap{width:min(100% - 40px,680px)}.story-list-hero{padding:55px 0 30px}.story-list-hero h1{font-size:35px}.story-list .card a{padding:20px 17px}.story-list .card h2{font-size:17px}.story-list .card .summary{font-size:12px}.story-post-wrap{padding-bottom:65px}.story-top{padding-top:22px}.story-post-main article{padding-top:34px}.story-post-main .body{font-size:14px;line-height:1.95}.story-post-main .body h2,.story-post-main .faq h2{font-size:18px}.story-post-main nav.pn{grid-template-columns:1fr}.story-post-main nav.pn .next{text-align:left}}

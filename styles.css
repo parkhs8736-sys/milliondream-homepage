@@ -27,6 +27,12 @@ button,input,textarea{font:inherit}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
 
 /* Brand photography, story feed and community links */
+.site-nav a[aria-current="page"] {
+  color: var(--rust-dark);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: .36em;
+}
 .brand-logo{display:block;width:40px;height:40px;object-fit:cover;border-radius:50%;box-shadow:0 2px 10px #302e2918}
 .hero h1{font-size:clamp(42px,3.75vw,54px)}
 .hero-art-photo{background:#f4f1eb}

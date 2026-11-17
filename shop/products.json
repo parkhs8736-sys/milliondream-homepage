@@ -1,0 +1,29 @@
+[
+  {
+    "id": "field-class",
+    "name": "실전반 · 구축아파트 단타매매",
+    "label": "실전반",
+    "summary": "구축아파트 급매를 살피고 매입·수리·매도 판단의 기준을 배우는 과정입니다.",
+    "detail": "현장에서 물건을 비교하고, 수리 범위와 비용을 검토하고, 매도 전략을 세우는 과정을 함께 배웁니다. 세부 일정과 수강 범위는 공식 판매 페이지에서 확인해 주세요.",
+    "theme": "field",
+    "purchaseUrl": "https://www.latpeed.com/products/SHXmi"
+  },
+  {
+    "id": "coaching-one",
+    "name": "코칭반 1 · 한 물건 완성",
+    "label": "1개 물건 코칭",
+    "summary": "한 물건의 매수 검토부터 수리와 매도까지 함께 살피는 코칭 옵션입니다.",
+    "detail": "한 물건을 대상으로 매수 검토, 경쟁 물건 비교, 수리 방향과 매도 전략을 살펴봅니다. 실제 제공 범위와 일정은 공식 판매 페이지에서 확인해 주세요.",
+    "theme": "one",
+    "purchaseUrl": "https://www.latpeed.com/products/SHXmi"
+  },
+  {
+    "id": "coaching-three",
+    "name": "코칭반 3 · 세 물건 완성",
+    "label": "3개 물건 코칭",
+    "summary": "세 물건의 진행 과정을 함께 살피는 코칭 옵션입니다.",
+    "detail": "세 물건에 대해 매수 검토부터 수리와 매도 판단까지 함께 살피는 옵션입니다. 실제 제공 범위와 일정은 공식 판매 페이지에서 확인해 주세요.",
+    "theme": "three",
+    "purchaseUrl": "https://www.latpeed.com/products/SHXmi"
+  }
+]

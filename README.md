@@ -11,12 +11,15 @@
 - `story/post.html`: 글 상세 화면
 - `story/posts.json`: 글 데이터. 새 글은 여기에 추가하면 홈 최신 글 카드에도 자동으로 반영됩니다.
 - `story/admin.html`: 제공된 글 관리 화면
+- `shop/`: 실전반·코칭반 안내, 상품 상세, 브라우저 장바구니, 공식 판매 페이지 결제 안내
 - `styles.css`, `story.css`: 공통 브랜드 및 블로그 스타일
 - `script.js`: 모바일 메뉴, 홈 최신 글 표시, 현재 연도
 - `assets/`: 강사 사진·수강생 사진·로고 이미지
 - `sitemap.xml`, `robots.txt`, `llms.txt`: 공개 페이지 검색 및 AI 참조용 안내
 
 빌드 도구 없이 저장소 최상위 `index.html`을 [Vercel](https://milliondream.vercel.app/)에 배포합니다. GitHub Pages 주소도 열리지만 canonical과 사이트맵은 Vercel 주소를 기준으로 합니다. 글 상세 화면은 `posts.json`의 `id`를 읽어 `story/post.html?id=<id>`로 표시합니다. 목록과 홈은 날짜 내림차순으로 최신 글을 표시합니다.
+
+쇼핑은 기존 판매 페이지의 세 옵션을 소개합니다. 가격은 공식 판매 페이지에서 확인하며, 이 정적 사이트는 주문·결제를 처리하거나 완료를 확인하지 않습니다. 자세한 운영 메모와 공개 전 사업자 정보 확인 항목은 [`shop/README.md`](shop/README.md)를 참고하세요.
 
 ## 공개 전 확인할 항목
 

@@ -4,14 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f7f4ec">
-  <meta name="description" content="밀리언드림의 이야기">
+  <meta name="description" content="밀리언드림이 구축아파트 매입, 수리, 매도 현장에서 배운 기준과 경험을 나눕니다.">
   <meta name="author" content="밀리언드림">
-  <link rel="canonical" href="">
+  <link rel="canonical" href="https://parkhs8736-sys.github.io/milliondream-homepage/story/post.html">
   <meta property="og:type" content="article">
   <meta property="og:title" content="">
   <meta property="og:description" content="">
   <meta property="og:url" content="">
-  <title>이야기 | 밀리언드림</title>
+  <title>구축아파트 투자 이야기 | 밀리언드림</title>
   <link rel="stylesheet" href="../styles.css">
   <link rel="stylesheet" href="../story.css">
   <script src="../script.js" defer></script>
@@ -95,9 +95,9 @@
   function setMeta(post){
     var title = String(post.title || '이야기');
     var desc = String(post.description || post.summary || '').slice(0, 160);
-    var url = location.origin + location.pathname + '?id=' + encodeURIComponent(post.id || '');
+    var url = 'https://parkhs8736-sys.github.io/milliondream-homepage/story/post.html?id=' + encodeURIComponent(post.id || '');
     var author = String(post.author || '').trim();
-    document.title = title;
+    document.title = title + ' | 밀리언드림';
     setAttr('meta[name="description"]', 'content', desc);
     setAttr('meta[name="author"]', 'content', author);
     setAttr('link[rel="canonical"]', 'href', url);
@@ -115,7 +115,9 @@
       mainEntityOfPage: url,
       keywords: Array.isArray(post.tags) ? post.tags.map(String).join(', ') : ''
     };
-    if (author) article.author = { '@type': 'Person', name: author };
+    if (author) article.author = author === '밀리언드림'
+      ? { '@type': 'Organization', name: author, url: 'https://parkhs8736-sys.github.io/milliondream-homepage/' }
+      : { '@type': 'Person', name: author };
     addLd(article);
 
     var faq = Array.isArray(post.faq) ? post.faq.filter(function(f){ return f && f.q && f.a; }) : [];
@@ -123,6 +125,9 @@
       addLd({
         '@context': 'https://schema.org',
         '@type': 'FAQPage',
+        '@id': url + '#faq',
+        'url': url,
+        'inLanguage': 'ko-KR',
         mainEntity: faq.map(function(f){
           return { '@type': 'Question', name: String(f.q),
                    acceptedAnswer: { '@type': 'Answer', text: String(f.a) } };
@@ -133,7 +138,7 @@
       '@context': 'https://schema.org',
       '@type': 'BreadcrumbList',
       itemListElement: [
-        { '@type': 'ListItem', position: 1, name: '이야기', item: location.origin + location.pathname.replace(/post\.html$/, '') },
+        { '@type': 'ListItem', position: 1, name: '이야기', item: 'https://parkhs8736-sys.github.io/milliondream-homepage/story/' },
         { '@type': 'ListItem', position: 2, name: title, item: url }
       ]
     });

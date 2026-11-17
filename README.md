@@ -6,6 +6,7 @@
 
 - `index.html`: 브랜드 홈, `story/posts.json` 기반 최신 글 3개, 외부 채널 안내
 - `about.html`: 대표 소개, 브랜드 스토리와 타임라인
+- `contact.html`: 이메일·Threads·스토어 연락처
 - `story/index.html`: 글 목록
 - `story/post.html`: 글 상세 화면
 - `story/posts.json`: 글 데이터. 새 글은 여기에 추가하면 홈 최신 글 카드에도 자동으로 반영됩니다.

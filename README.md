@@ -16,7 +16,7 @@
 - `assets/`: 강사 사진·수강생 사진·로고 이미지
 - `sitemap.xml`, `robots.txt`, `llms.txt`: 공개 페이지 검색 및 AI 참조용 안내
 
-빌드 도구 없이 저장소 최상위 `index.html`을 GitHub Pages로 배포합니다. 글 상세 화면은 `posts.json`의 `id`를 읽어 `story/post.html?id=<id>`로 표시합니다. 목록과 홈은 날짜 내림차순으로 최신 글을 표시합니다.
+빌드 도구 없이 저장소 최상위 `index.html`을 [Vercel](https://milliondream.vercel.app/)에 배포합니다. GitHub Pages 주소도 열리지만 canonical과 사이트맵은 Vercel 주소를 기준으로 합니다. 글 상세 화면은 `posts.json`의 `id`를 읽어 `story/post.html?id=<id>`로 표시합니다. 목록과 홈은 날짜 내림차순으로 최신 글을 표시합니다.
 
 ## 공개 전 확인할 항목
 

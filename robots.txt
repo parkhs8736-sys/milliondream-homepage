@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://parkhs8736-sys.github.io/milliondream-homepage/sitemap.xml
+Sitemap: https://milliondream.vercel.app/sitemap.xml
